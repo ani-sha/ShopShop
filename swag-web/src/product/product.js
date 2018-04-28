@@ -22,6 +22,7 @@ class Product extends Component {
 
     componentWillUnmount(){
       ns.removeObserver(this, N_CHANGED);
+    
     }
 
     onWishListChanged(newWishList){
